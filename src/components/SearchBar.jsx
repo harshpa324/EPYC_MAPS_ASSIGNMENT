@@ -59,7 +59,7 @@ const SearchBar = ({ setMarkers }) => {
             borderRadius: '5px',
             border: '2px solid rgba(0, 0, 255, 0.5)', // Blue border
             boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-            width: '200%',
+            width: '100%',
             paddingLeft: '40px',
             transition: 'border-color 0.3s',
             outline: 'none',
