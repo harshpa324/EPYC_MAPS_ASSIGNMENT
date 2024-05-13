@@ -14,7 +14,7 @@ function MapboxMap() {
 
 
     useEffect(() => {
-        mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
+        mapboxgl.accessToken = "pk.eyJ1Ijoiem5ldCIsImEiOiJjbHczaGFsaGwwd2V6MmtwaHBuNjA4aXV5In0.dkpHpZFXl61fugKqbZf_CA";
 
         const initializeMap = ({ setMap, mapContainer }) => {
             const map = new mapboxgl.Map({
