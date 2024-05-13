@@ -1,6 +1,6 @@
 "use client"
 import React, { useRef, useEffect, useState } from "react";
-import mapboxgl from "mapbox-gl";
+import mapboxgl from "!mapbox-gl";
 import algoliasearch from 'algoliasearch/lite';
 import "mapbox-gl/dist/mapbox-gl.css";
 import SearchBar from './SearchBar'; 
